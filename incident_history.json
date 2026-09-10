@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2026-09-10T16:24:20",
+    "incident": "Production API returning 503 after deployment",
+    "severity": "P2 - High",
+    "category": "Deployment",
+    "root_cause_hints": [
+      "Service unavailable or backend service may be unhealthy.",
+      "Recent deployment or release may have introduced the issue."
+    ],
+    "recommended_actions": [
+      "Review application and infrastructure logs.",
+      "Check service health and monitoring dashboards.",
+      "Identify when the incident started.",
+      "Compare the current deployment with the previous stable version.",
+      "Consider rolling back the latest deployment if confirmed as the cause.",
+      "Verify backend service health and HTTP error rates.",
+      "Monitor the system after remediation to confirm recovery."
+    ]
+  }
+]

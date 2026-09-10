@@ -1,0 +1,11 @@
+incident_id,date,category,severity,service,symptoms,root_cause,resolution
+INC001,2026-01-05,Network,P1,VPN,Users unable to connect authentication timeout,Firewall blocked RADIUS traffic,Updated firewall rule
+INC002,2026-01-18,Authentication,P2,SSO,Users receiving login timeout errors,Identity provider configuration issue,Corrected SSO configuration
+INC003,2026-02-02,Database,P1,PostgreSQL,Application database connections failing,Database connection pool exhausted,Restarted service and increased pool
+INC004,2026-02-15,Network,P2,DNS,Applications unable to resolve internal domains,DNS server configuration error,Corrected DNS configuration
+INC005,2026-03-01,VPN,P1,VPN,Multiple employees cannot access VPN,Authentication server unreachable,Restored network route
+INC006,2026-03-14,Application,P2,API,API requests returning 500 errors,Recent application deployment introduced bug,Rolled back deployment
+INC007,2026-04-03,Authentication,P1,SSO,Large number of users unable to login,Identity provider outage,Service restored by provider
+INC008,2026-04-20,Network,P2,Firewall,Internal services unreachable,Incorrect firewall rule,Reverted firewall change
+INC009,2026-05-06,Database,P1,MySQL,Database queries extremely slow,Database CPU saturation,Scaled database resources
+INC010,2026-05-21,VPN,P2,VPN,VPN connections timing out,Incorrect VPN configuration,Corrected VPN configuration

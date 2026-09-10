@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+agents/
+main_3.6_backup.py
+main_backup.py
+main_backup_before_agents.py
+main_backup_before_enhancements.py
+main_python.py
+main_WORKING_FINAL.py
+main_WORKING_FINAL.PY
+.env
